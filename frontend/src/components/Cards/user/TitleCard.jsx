@@ -20,19 +20,19 @@ export default function TitleCard({ name }) {
         <div class="flex flex-col lg:flex-row justify-center items-center border-b-2">
           <ul class="text-center  hidden lg:flex items-center text-[18px] font-semibold ">
             <li class="w-32 hover:underline text-base  underline-offset-4 py-2 rounded-lg px-5">
-              <a href="#">Men</a>
+              <a href="#">Burgers</a>
             </li>
             <li class="w-32 hover:underline text-base underline-offset-4 py-2 rounded-lg px-5">
-              <a href="#">Women</a>
+              <a href="#">Pastas</a>
             </li>
             <li class="w-32 hover:underline text-base underline-offset-4 py-2 rounded-lg px-5">
-              <a href="#">Kids</a>
+              <a href="#">Pizzas</a>
             </li>
             <li class="w-32 hover:underline text-base underline-offset-4 py-2 rounded-lg px-5">
-              <a href="#">Bags</a>
+              <a href="#">Bar BBQ</a>
             </li>
             <li class="w-32 hover:underline text-base underline-offset-4 py-2 rounded-lg px-5">
-              <a href="#">Accessories</a>
+              <a href="#">Chinese</a>
             </li>
             <li>
               {/* <input

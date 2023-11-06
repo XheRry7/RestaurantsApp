@@ -45,12 +45,12 @@ export default function OrderCard({
     {
       data.map(e=>{
         return (
-<div class="p-4 md:w-1/3 sm:w-full">
-        <div class="cursor-pointer h-64 md:h-72 border-2 border-gray-300 border-opacity-60 rounded-xl overflow-hidden">
+<div class="p-4 md:w-1/3 sm:w-full ">
+        <div class="cursor-pointer h-64 md:h-72 border-2 border-gray-300 border-opacity-60 rounded-xl overflow-hidden ">
           <div>
-            <div className="w-full h-16 bg-gray-300 rounded-t-xl px-8 py-5 border-gray-300 border">
-              <div className="flex flex-row justify-between">
-                <h3 className="text-black font-semibold">fsdfsdfs</h3>
+            <div className="w-full h-16 bg-gray-300 rounded-t-xl px-8 py-5 border-gray-300 border bg-white dark:bg-[#ff6900]">
+              <div className="flex flex-row justify-between ">
+                <h3 className="text-black font-semibold ">fsdfsdfs</h3>
               </div>
             </div>
             <div

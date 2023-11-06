@@ -71,7 +71,7 @@ export default function Floors({ number, list, len }) {
                 >
                   <div className="bg-gray-100 shadow rounded-tl rounded-tr">
                     <img
-                      src="https://image.cnbcfm.com/api/v1/image/107036059-1648140541349-gettyimages-1239350024-PWeaver-Target-01.jpeg?v=1654544436&w=1920&h=1080"
+                      src="https://mcdonalds.com.pk/wp-content/uploads/2022/08/terms-and-condition.png"
                       alt="bg-img"
                       className="w-full h-full"
                     />
@@ -82,8 +82,7 @@ export default function Floors({ number, list, len }) {
                     </p>
 
                     <p className="py-2 text-xs leading-4 dark:text-gray-400 text-gray-500">
-                      When I first got into the advertising business, I was
-                      looking for the magical combination
+                    McDonalds is a food chain that began its journey in 19's and now it has over 500 branches all over the world exapnding the business to new limits.
                     </p>
                     <div className="flex cursor-pointer py-4">
                       <p className="text-xs leading-1 text-indigo-700 pr-1">

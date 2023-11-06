@@ -46,14 +46,14 @@ export default function Signup() {
           <div class="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
             <div class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                src="https://img.freepik.com/free-vector/flat-human-hands-hold-smartphone-with-mobile-app-ordering-fast-food-home-take-away-online-service-order-asian-italian-meals-pizza-burger-wok-box-with-noodles-delivery_88138-804.jpg?w=826&t=st=1699262821~exp=1699263421~hmac=15503a72cd701b8bbe1a75256429437e301e57fe25820888a40ea8448d814035"
                 class="w-full"
                 alt="hhh"
               />
             </div>
             <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
               <center>
-                <h1 className="text-xl my-4">ZELLY</h1>
+                <h1 className="text-xl my-4">Cusine Cloud</h1>
               </center>
               <form>
                 <div class="mb-2">
@@ -102,12 +102,12 @@ export default function Signup() {
                     <input
                       type="radio"
                       name="usertype"
-                      value="SHOPKEEPER"
+                      value="Restaurant Owner"
                       checked={type === "SHOPKEEPER"}
                       onChange={handleOptionChange}
                       className="cursor-pointer"
                     />{" "}
-                    Shop Keeeper
+                    Restaurant Owner
                   </section>
 
                   <section>

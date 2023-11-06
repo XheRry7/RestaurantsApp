@@ -3,18 +3,18 @@ function Footer() {
   return (
     <>
       {/* bg-gradient-to-bl from-indigo-200 via-black to-emerald-200 */}
-      <section className="pb-14  flex justify-center items-center bg-gray-900">
+      <section className="pb-14  flex justify-center items-center bg-white dark:bg-[#ff6900] bg-gray-900">
         <footer className="mt-20 mx-auto container md:w-full flex justify-center items-center">
           <div className="flex xl:flex-row flex-col lg:gap-x-24 px-6 md:px-0">
             <div className="flex-col flex justify-start items-start lg:w-80">
               <div className="xl:flex-col flex justify-start items-center xl:items-start">
                 <div className="flex justify-center mr-6 xl:mr-0 dark:text-white text-4xl text-gray-800">
-                  Zelly
+                  Cuisine Cloud
                 </div>
                 <div className="flex justify-center flex-col">
                   <div className="xl:mt-8">
                     <p className="text-gray-600 dark:text-gray-300 text-sm leading-normal">
-                      Copyright © 2023 Zelly.
+                      Copyright © 2023 Cuisine Cloud.
                     </p>
                   </div>
                   <div className="mt-2">

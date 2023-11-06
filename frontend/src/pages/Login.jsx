@@ -50,17 +50,19 @@ export default function Login() {
           <div class="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
             <div class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                src="https://img.freepik.com/free-vector/people-ordering-food-cafe-online_74855-5913.jpg?w=740&t=st=1699263025~exp=1699263625~hmac=d6217d7fc33a0b6167fe8c6920469ac28eb52ecca0e30a10beef5e85f54147fd"
                 class="w-full"
                 alt="hhh"
               />
             </div>
             <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
               <center>
+             <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0 ">Login to enjoy the Best of Cuisine Cloud</div> 
                 <img
                   className="h-10 w-auto my-4"
                   src="https://tailwindui.com/img/logos/mark.svg?color=black"
                   alt=""
+                 
                 />
               </center>
               <form>

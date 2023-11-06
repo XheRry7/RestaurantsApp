@@ -55,7 +55,7 @@ export default function ShopKeeperShops() {
               navigate("/addshop");
             }}
           >
-            Add Shop
+            Add Restaurant
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -77,7 +77,7 @@ export default function ShopKeeperShops() {
             {data.map((i) => (
               <ShopCard
                 id={i["_id"]}
-                shopName={i["shopName"]}
+                RestaurantName={i["shopName"]}
                 shopNo={i["shopNumber"]}
                 name={
                   i["ownerPersonalInformation"]["firstName"] +
