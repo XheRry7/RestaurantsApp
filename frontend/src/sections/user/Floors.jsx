@@ -18,25 +18,7 @@ export default function Floors({ number, list, len }) {
   return (
     <>
       <div className=" mx-auto">
-        <div className="flex flex-wrap justify-center items-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"
-            />
-          </svg>
-          <b>
-            <h1 className="text-2xl"> Floor {number}</h1>
-          </b>
-        </div>
+      
 
         <div className=" flex items-center justify-center w-full h-full sm:py-8 px-4">
           <Swiper
@@ -71,18 +53,18 @@ export default function Floors({ number, list, len }) {
                 >
                   <div className="bg-gray-100 shadow rounded-tl rounded-tr">
                     <img
-                      src="https://mcdonalds.com.pk/wp-content/uploads/2022/08/terms-and-condition.png"
+                      src="https://img.freepik.com/free-vector/hand-drawn-pattern-background_23-2150905271.jpg?w=740&t=st=1700818619~exp=1700819219~hmac=560d5d4eb2265e84e8519c4b88c36fdef00d1f3cdd88c4c72176f68382986806"
                       alt="bg-img"
                       className="w-full h-full"
                     />
                   </div>
-                  <div className="bg-white shadow  px-5 rounded-b">
-                    <p className="w-48 text-base font-semibold leading-5 pt-4 text-black">
-                      {i["shopName"]}
+                  <div className="bg-light-gray-700 shadow  px-5 rounded-b">
+                    <p className="w-48 text-gray font-semibold leading-5 pt-4 text-">
+                      Burger-In
                     </p>
 
-                    <p className="py-2 text-xs leading-4 dark:text-gray-400 text-gray-500">
-                    McDonalds is a food chain that began its journey in 19's and now it has over 500 branches all over the world exapnding the business to new limits.
+                    <p className="py-2 text-xs leading-4 dark:text-dark-gray-400 text-gray-500">
+                    Burger-In is a food chain that began its journey in 19's and now it has over 500 branches all over the world exapnding the business to new limits.
                     </p>
                     <div className="flex cursor-pointer py-4">
                       <p className="text-xs leading-1 text-indigo-700 pr-1">

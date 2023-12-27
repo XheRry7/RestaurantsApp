@@ -18,10 +18,11 @@ export default function Signup() {
   const handleOptionChange = (event) => setType(event.target.value);
 
   const submit = () => {
+    console.log("called");
     let jsn = {
       email: em,
       password: password,
-      userType: type,
+      userType: "admin",
       personalInformation: {
         firstName: fn,
         lastName: ln,
@@ -53,7 +54,7 @@ export default function Signup() {
             </div>
             <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
               <center>
-                <h1 className="text-xl my-4">Cusine Cloud</h1>
+                <img className="h-16 w-auto" src="https://png.pngtree.com/png-clipart/20220604/original/pngtree-restaurant-logo-png-image_7932128.png" /><h1 className="text-xl my-4">Cuisine Cloud</h1>
               </center>
               <form>
                 <div class="mb-2">
@@ -103,9 +104,9 @@ export default function Signup() {
                       type="radio"
                       name="usertype"
                       value="Restaurant Owner"
-                      checked={type === "SHOPKEEPER"}
+                      checked={type === "Restaurant Owner"}
                       onChange={handleOptionChange}
-                      className="cursor-pointer"
+                      className="cursor-pointer bg-[#ff6900]"
                     />{" "}
                     Restaurant Owner
                   </section>
@@ -163,14 +164,14 @@ export default function Signup() {
                   <button
                     onClick={submit}
                     type="button"
-                    class="inline-block px-7 cursor-pointer py-3 bg-blue-600 text-white font-medium text-md leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    class="inline-block px-7 cursor-pointer py-3 bg-white dark:bg-[#ff7e26] text-white font-medium text-md leading-snug uppercase rounded shadow-md hover:bg-orange-600 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     Signup
                   </button>
                   <button
                     type="button"
                     onClick={() => navigate("/")}
-                    class="inline-block px-7 ml-3 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    class="inline-block px-7 ml-3 py-3 bg-[#ff7e26] text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-orange-600 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     Cancel
                   </button>

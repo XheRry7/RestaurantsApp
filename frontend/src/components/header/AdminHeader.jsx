@@ -27,20 +27,20 @@ export default function AdminHeader() {
     <>
       <div className="bg-gray-200 h-full w-full">
         {/* Code block starts */}
-        <nav className="w-full mx-auto bg-white shadow xl:block hidden">
+        <nav className="w-full mx-auto  dark:bg-gray-700 ">
           <div className="container px-6 h-16 flex items-center lg:items-stretch justify-between mx-auto">
             <div className="w-auto flex items-center">
-              <h2 className="text-gray-800 font-bold text-xl">Zelly</h2>
+              <h2 className="text-white f6 font-bold text-xl">CuisineCloud </h2>
             </div>
             <ul className="flex items-center justify-center h-full">
               <NavLink to="/dashboard" activeClassName="active">
-                <li className="cursor-pointer h-full xl:flex items-center text-sm  tracking-normal hidden">
+                <li className="cursor-pointer  text-white h-full xl:flex items-center text-sm  tracking-normal hidden">
                   Dashboard
                 </li>
               </NavLink>
               <NavLink to="/floors" activeClassName="active">
                 <li className="cursor-pointer h-full xl:flex items-center text-sm ml-10 tracking-normal hidden hover:text-indigo-700 transition duration-150 ease-in-out">
-                  Floors
+                
                 </li>
               </NavLink>
               <li className="mx-0 lg:mx-12 cursor-pointer">
@@ -52,8 +52,8 @@ export default function AdminHeader() {
                   height={44}
                   viewBox="0 0 300 300"
                   width={43}
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xmlns=""
+                  xmlnsXlink=""
                 >
                   <g>
                     <path
@@ -64,12 +64,12 @@ export default function AdminHeader() {
                 </svg>
               </li>
               <NavLink to="/allAdminShops" activeClassName="active">
-                <li className="cursor-pointer h-full xl:flex items-center text-sm mr-10 tracking-normal hidden hover:text-indigo-700 transition duration-150 ease-in-out">
-                  Shops
+                <li className="cursor-pointer text-white h-full xl:flex items-center text-sm mr-10 tracking-normal hidden hover:text-indigo-700 transition duration-150 ease-in-out">
+                  Restaurants
                 </li>
               </NavLink>
               <NavLink to="/feedbacks">
-                <li className="cursor-pointer h-full xl:flex items-center text-sm tracking-normal hidden hover:text-indigo-700 transition duration-150 ease-in-out">
+                <li className="cursor-pointer text-white h-full xl:flex items-center text-sm tracking-normal hidden hover:text-indigo-700 transition duration-150 ease-in-out">
                   Feedbacks
                 </li>
               </NavLink>
@@ -411,7 +411,7 @@ export default function AdminHeader() {
                                 </svg>
                               </div>
                               <p className="text-gray-800 xl:text-base md:text-2xl text-base ml-3">
-                                Shops
+                               Restaurants
                               </p>
                             </div>
                           </li>

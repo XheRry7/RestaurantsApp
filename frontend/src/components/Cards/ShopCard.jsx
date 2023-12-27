@@ -63,7 +63,7 @@ export default function ShopCard({
             >
               <div className="flex flex-col items-start  ">
                 <img
-                  src="https://cdn.tuk.dev/assets/templates/olympus/profile.png"
+                  src="https://img.freepik.com/free-vector/set-junk-food_1308-21087.jpg?w=996&t=st=1700818375~exp=1700818975~hmac=70869a426f306a21bb25fce2eb0450b1a90c00eae3135e80e4aed77eb6f08c1d"
                   alt="profile"
                 />
                 <p className="mt-2 text-xs sm:text-sm md:text-base font-semibold text-center text-black">
@@ -80,7 +80,7 @@ export default function ShopCard({
               </div>
               <div className="ml-12">
                 <p className="mt-2 text-base sm:text-lg md:text-xl 2xl:text-2xl text-black">
-                  SHOP #
+                  Restaurant #
                 </p>
                 <p className="text-xs text-black">{shopNo}</p>
               </div>

@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+
 const navigation = [
   { name: "Home", href: "#", path: "/" },
   // { name: 'About', href: '#', path: '' },
@@ -17,7 +18,7 @@ export default function MainHeader() {
   };
 
   return (
-    <header className="bg-[#5b5b5b]">
+    <header className="bg-[#454545]">
       <nav className="mx-auto max-w-7xl px-6 lg:px-8" aria-label="Top">
         <div className="flex w-full items-center justify-between border-b border-indigo-500 py-6 lg:border-none">
           <div className="flex items-center">
@@ -25,7 +26,7 @@ export default function MainHeader() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-10 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=white"
+                src="https://png.pngtree.com/png-clipart/20220604/original/pngtree-restaurant-logo-png-image_7932128.png"
                 alt=""
               />
             </a>

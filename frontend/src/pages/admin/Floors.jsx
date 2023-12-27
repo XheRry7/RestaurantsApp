@@ -61,13 +61,13 @@ const filterHandler =(val)=>{
   return (
     <>
       <AdminHeader />
-      <TitleCard name={"Welcome"} />
+      <TitleCard name={"Have a Look at your restaurants"} />
       <>
         <div className="flex items-center w-full justify-center px-16 py-8">
-          <div className="w-full rounded shadow bg-white dark:bg-gray-800 py-6 pl-6 pr-12">
+          <div className="w-full rounded shadow bg-white dark:bg-gray-700 py-6 pl-6 pr-12">
             <div className="flex items-center">
               <p className="text-lg md:pr-96 font-semibold leading-4 text-gray-800 dark:text-gray-100">
-                Statistics
+                Review your stats
               </p>
               {/* <p className="text-xs leading-3 pl-6 text-right text-gray-500 dark:text-gray-400">
                 Updated 1 month ago
@@ -97,14 +97,14 @@ const filterHandler =(val)=>{
                     {ttlFloors}
                   </p>
                   <p className="w-8 text-xs leading-3 text-gray-500 pt-2 dark:text-gray-400">
-                    Floors
+                   
                   </p>
                 </div>
               </div>
               <div className="flex items-center md:pt-0 pt-4 md:pl-10">
                 <div className="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns=""
                     width="16"
                     height="16"
                     fill="currentColor"
@@ -120,14 +120,14 @@ const filterHandler =(val)=>{
                     {ttlShops}
                   </p>
                   <p className="w-8 text-xs leading-3 text-gray-500 pt-2 dark:text-gray-400">
-                    Shops
+                    Restaurants
                   </p>
                 </div>
               </div>
               <div className="flex items-center md:pt-0 pt-4 md:pl-10">
                 <div className="flex items-center justify-center w-12 h-12 bg-red-100 rounded-full">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns=""
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -148,14 +148,14 @@ const filterHandler =(val)=>{
                     3
                   </p>
                   <p className="w-8 text-xs leading-3 text-gray-500 pt-2 dark:text-gray-400">
-                    Products
+                    Food Items
                   </p>
                 </div>
               </div>
               <div className="flex items-center md:pt-0 pt-4 md:pl-10">
                 <div className="flex items-center justify-center w-12 h-12 bg-green-100 rounded-full">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns=""
                     width={25}
                     height={24}
                     viewBox="0 0 25 24"
@@ -171,10 +171,10 @@ const filterHandler =(val)=>{
                 </div>
                 <div className="pl-4">
                   <p className="w-11 text-lg font-semibold leading-none text-gray-800 dark:text-gray-100">
-                    $9745
+                    $3998
                   </p>
                   <p className="w-8 text-xs leading-3 text-gray-500 pt-2 dark:text-gray-400">
-                    Revenue
+                 Total amount
                   </p>
                 </div>
               </div>

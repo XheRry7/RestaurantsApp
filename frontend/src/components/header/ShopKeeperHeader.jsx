@@ -12,7 +12,7 @@ export default function ShopKeeperHeader() {
         <nav className="w-full mx-auto bg-white shadow xl:block hidden">
           <div className="container px-6 h-16 flex items-center lg:items-stretch justify-between mx-auto">
             <div className="w-auto flex items-center">
-            <h2 className="text-gray-800 font-bold text-xl">Zelly</h2>
+            <h2 className="text-gray-800 font-bold text-xl">CuisineCloud </h2>
             </div>
             <ul className="flex items-center justify-center h-full">
               <NavLink to="/shopKeeperShops" activeClassName="active">

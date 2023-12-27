@@ -49,10 +49,10 @@ export default function AddShop() {
 
   const submit = () => {
     let jsn = {
-      shopName: shopName,
+      RestaurantName: shopName,
       shopNumber: shopNo,
       floorNumber: floorNo,
-      shopType: type,
+      RestaurantType: type,
       ownerPersonalInformation: {
         OwnerId: ownerId,
         firstName: fname,
@@ -83,9 +83,9 @@ export default function AddShop() {
   return (
     <>
       <ShopKeeperHeader />
-      <TitleCard name={title} />
+      <TitleCard  name={title} />
       <div className="flex flex-wrap justify-center">
-        <div className="mx-10 bg-gray-300 p-6 rounded-xl  mt-5 md:mt-0">
+        <div className="mx-10 bg-[#FAF9F6] p-6 rounded-xl  mt-5 md:mt-0">
           <h1 className="text-xl mb-4">Owner Details</h1>
           <div className="flex flex-col mb-2">
             <label className="text-gray-800 text-sm  leading-tight tracking-normal mb-2">
@@ -145,11 +145,11 @@ export default function AddShop() {
           </div>
         </div>
         <div class="lg:block absolute left-1/6 top-64 -ml-0.5 w-[1px] h-96 bg-gray-600 hidden"></div>
-        <div className="mx-10 bg-gray-300 p-6 rounded-xl mt-5 mb-32 md:mb-0 md:mt-0">
-          <h1 className="text-xl  mb-4">Shop Details</h1>
+        <div className="mx-10 bg-[#FAF9F6] p-6 rounded-xl mt-5 mb-32 md:mb-0 md:mt-0">
+          <h1 className="text-xl  mb-4">Restaurant Details</h1>
           <div className="flex flex-col mb-2">
             <label className="text-gray-800 text-sm  leading-tight tracking-normal mb-2">
-              Shop Name
+              Restaurant Name
               <span className="text-xs text-gray-600  italic font-normal"></span>
             </label>
             <input
@@ -160,7 +160,7 @@ export default function AddShop() {
           </div>
           <div className="flex flex-col mb-2">
             <label className="text-gray-800 text-sm  leading-tight tracking-normal mb-2">
-              Shop Number
+              Restaurant Number
               <span className="text-xs text-gray-600  italic font-normal"></span>
             </label>
             <input
@@ -182,7 +182,7 @@ export default function AddShop() {
           </div>
           <div className="flex flex-col mb-2">
             <label className="text-gray-800 text-sm  leading-tight tracking-normal mb-2">
-              Shop Type
+              Restaurant Type
               <span className="text-xs text-gray-600  italic font-normal"></span>
             </label>
             <select
@@ -191,13 +191,13 @@ export default function AddShop() {
               className="text-gray-600  focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 bg-white font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
             >
               <option value="Shirts" className="bg=gray-800">
-                Shirts
+                Desi
               </option>
               <option value="pants" className="bg=gray-800">
-                Pants
+                Chinese
               </option>
               <option value="Coat" className="bg=gray-800">
-                Coat
+                Italian
               </option>
             </select>
           </div>

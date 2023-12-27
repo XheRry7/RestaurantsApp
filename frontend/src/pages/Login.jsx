@@ -50,18 +50,18 @@ export default function Login() {
           <div class="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
             <div class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
               <img
-                src="https://img.freepik.com/free-vector/people-ordering-food-cafe-online_74855-5913.jpg?w=740&t=st=1699263025~exp=1699263625~hmac=d6217d7fc33a0b6167fe8c6920469ac28eb52ecca0e30a10beef5e85f54147fd"
+                src="https://img.freepik.com/free-vector/empty-vape-shop-interior-flat_1284-49641.jpg?w=740&t=st=1700812173~exp=1700812773~hmac=eded2c898dcfd6f806ea59ee084c7ddce6b33a35d15b6814aae6d76641aa5084"
                 class="w-full"
                 alt="hhh"
               />
             </div>
             <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
               <center>
-             <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0 ">Login to enjoy the Best of Cuisine Cloud</div> 
+              
                 <img
-                  className="h-10 w-auto my-4"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=black"
-                  alt=""
+                  className="h-16 w-auto my-5"
+                  src="https://png.pngtree.com/png-clipart/20220604/original/pngtree-restaurant-logo-png-image_7932128.png"
+                  alt="Cuisine Cloud"
                  
                 />
               </center>
@@ -91,14 +91,14 @@ export default function Login() {
                   <button
                     type="button"
                     onClick={login}
-                    class="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    class="inline-block px-7 py-3 bg-[#ff6400] text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-orange-600 hover:shadow-lg focus:bg-[#ff6700] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     Login
                   </button>
                   <button
                     type="button"
                     onClick={() => navigate("/")}
-                    class="inline-block px-7 ml-3 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    class="inline-block px-7 ml-3 py-3 bg-[#ff6400] text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-orange-600 hover:shadow-lg focus:bg-[#ff6700] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     Cancel
                   </button>

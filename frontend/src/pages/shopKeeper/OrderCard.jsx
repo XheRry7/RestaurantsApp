@@ -63,7 +63,7 @@ export default function OrderCard({
                   alt="profile"
                 />
                 <p className="mt-2 text-xs sm:text-sm md:text-base font-semibold text-center text-black">
-                  dhehryz
+                 Usman
                 </p>
               </div>
             </div>

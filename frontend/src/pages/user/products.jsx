@@ -93,11 +93,11 @@ const UserProduct = () => {
   };
   return (
     <>
-      <MainHeader />
+      <MainHeader  class="bg-white dark:bg-[#ff6900]"  />
       {products && products.length ? (
         <>
-          <TitleCard name={"Products"} />
-          <div>
+          <TitleCard  name={"Food Items"} />
+          <div >
             {/* Mobile filter dialog */}
             <Transition.Root show={mobileFiltersOpen} as={Fragment}>
               <Dialog
@@ -165,58 +165,42 @@ const UserProduct = () => {
                 >
                   <SwiperSlide>
                     <img
-                      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fshopping-mall-products%3Fimage_type%3Dphoto&psig=AOvVaw062jrjClIs3BmyW6Sn0p00&ust=1684565969685000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCD5rLngP8CFQAAAAAdAAAAABAE"
+                      src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHg2MDg5MDItaW1hZ2Utam9iNjE5LWt6dzVieHNiLnBuZw.png"
                       alt=""
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHg2NTA4MjAtaW1hZ2Utam9iNjE5XzIta3p3NWJ2eXoucG5n.png"
                       alt=""
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbGlmZW9mcGl4MDAwMDEtaW1hZ2VfMS1renhsdXd3ci5wbmc.png"
                       alt=""
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://images.pexels.com/photos/8100784/pexels-photo-8100784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMV9hX2dyYXBoaWNfZWxlbWVudF9vZl9hX2dvbGRlbl9zaG90X29mX2p1c3RfYV9zaV81YzNjMTg3MS0xMTEwLTQzMDQtODgzOC1kMDRjMTY2YWZjZjkucG5n.png"
                       alt=""
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://images.pexels.com/photos/3591557/pexels-photo-3591557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczY2LW1vbmlrYS1vcmllbnRhbC1zb3VwLXdpdGgtbm9vZGxlcy1hbmQtcHJhd25zLTgucG5n.png"
                       alt=""
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://images.pexels.com/photos/23547/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvdXB3azYyMDUzMDUxLXdpa2ltZWRpYS1pbWFnZS1qb2I2MTlfMy1renc1Y21nNi5wbmc.png"
                       alt=""
                     />
                   </SwiperSlide>
-                  <SwiperSlide>
-                    <img
-                      src="https://images.pexels.com/photos/345522/pexels-photo-345522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                      alt=""
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img
-                      src="https://images.pexels.com/photos/551622/pexels-photo-551622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                      alt=""
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img
-                      src="https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                      alt=""
-                    />
-                  </SwiperSlide>
+                 
+                 
                 </Swiper>
               </div>
 
