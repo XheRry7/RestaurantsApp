@@ -63,7 +63,7 @@ export default function ShopCard({
             >
               <div className="flex flex-col items-start  ">
                 <img
-                  src="https://img.freepik.com/free-vector/set-junk-food_1308-21087.jpg?w=996&t=st=1700818375~exp=1700818975~hmac=70869a426f306a21bb25fce2eb0450b1a90c00eae3135e80e4aed77eb6f08c1d"
+                  src="https://img.freepik.com/free-vector/hand-drawn-pattern-background_23-2150905271.jpg?w=740&t=st=1700818619~exp=1700819219~hmac=560d5d4eb2265e84e8519c4b88c36fdef00d1f3cdd88c4c72176f68382986806"
                   alt="profile"
                 />
                 <p className="mt-2 text-xs sm:text-sm md:text-base font-semibold text-center text-black">

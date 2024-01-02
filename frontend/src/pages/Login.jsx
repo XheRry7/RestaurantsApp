@@ -20,7 +20,8 @@ export default function Login() {
     axios
       .post("http://localhost:2000/api/user/login", jsn)
       .then((res) => {
-        localStorage.setItem("token", res.data["token"]);
+        console.log("a:::",res.data.token);
+        localStorage.setItem("token", res.data.token);
         localStorage.setItem("uid", res.data["id"]);
         switch (res.data["userType"]) {
           case "CUSTOMER": {
@@ -29,7 +30,7 @@ export default function Login() {
           }
 
           case "SHOPKEEPER": {
-            navigate("/shopKeeperShops");
+            navigate("/userRestaurants");
             break;
           }
           case "ADMIN": {

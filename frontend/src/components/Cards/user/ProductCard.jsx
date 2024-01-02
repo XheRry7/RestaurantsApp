@@ -12,7 +12,7 @@ export default function ProductCard({ id, brandName, image, title, price }) {
             <div
                 onClick={() => {
                     localStorage.setItem('p_id', id)
-                    nav('/productDetail')
+                    nav('/itemsDetails')
                 }}
                 class="w-full max-w-sm my-2 bg-gray-400 border border-gray-200 rounded-lg shadow  dark:border-gray-400">
                 <a href=" ">

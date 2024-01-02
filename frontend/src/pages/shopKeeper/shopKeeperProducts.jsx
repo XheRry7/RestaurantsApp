@@ -43,7 +43,7 @@ export default function ShopKeeperProducts() {
 
   const handleclick = (id) => {
     localStorage.setItem("Id", id);
-    navigate("/addproduct");
+    navigate("/additem");
   };
 
   console.log("data", data);

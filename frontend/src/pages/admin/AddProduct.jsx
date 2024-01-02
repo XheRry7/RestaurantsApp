@@ -117,18 +117,6 @@ export default function AddProduct() {
           </div>
           <div className="flex flex-col mb-2">
             <label className="text-gray-800 text-sm  leading-tight tracking-normal mb-2">
-              Sizes
-              <span className="text-xs text-gray-600  italic font-normal"></span>
-            </label>
-            <input
-              value={size}
-              onChange={(e) => setSize(e.target.value)}
-              type="text"
-              className="text-gray-600  focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 bg-white font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border shadow"
-            />
-          </div>
-          <div className="flex flex-col mb-2">
-            <label className="text-gray-800 text-sm  leading-tight tracking-normal mb-2">
               Status
               <span className="text-xs text-gray-600  italic font-normal"></span>
             </label>

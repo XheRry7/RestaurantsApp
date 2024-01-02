@@ -302,10 +302,9 @@ const filterHandler =(val)=>{
               <thead>
                 <tr className="h-20 w-full text-sm leading-none text-gray-600">
                   <th className="font-normal text-left pl-11">#</th>
-                  <th className="font-normal text-left pl-11">Shop No</th>
-                  <th className="font-normal text-left pl-10">Shop Name</th>
-                  <th className="font-normal text-left pl-10">Shop Type</th>
-                  <th className="font-normal text-left pl-10">Floor No</th>
+                  <th className="font-normal text-left pl-11">Restaurant No</th>
+                  <th className="font-normal text-left pl-10">Restaurant Name</th>
+                  <th className="font-normal text-left pl-10">Restaurant Type</th>
                   <th className="font-normal text-left pl-10">Status</th>
                 </tr>
               </thead>
@@ -325,9 +324,6 @@ const filterHandler =(val)=>{
                       </td>
                       <td>
                         <p className="mr-16 pl-10">{i["shopType"]}</p>
-                      </td>
-                      <td>
-                        <p className="mr-16 pl-12">{i["floorNumber"]}</p>
                       </td>
                       <td>
                         <p className="mr-16 pl-8">{i["Status"]}</p>

@@ -24,14 +24,14 @@ export default function AddFloor() {
       axios
         .put(`http://localhost:2000/api/shop/update/${id}`, jsn)
         .then((r) => {
-          navigate("/shopKeeperShops");
+          navigate("/userRestaurants");
         })
         .catch((er) => console.log("err", er));
     } else {
       axios
         .post(`http://localhost:2000/api/shop/create?token=${token}`, jsn)
         .then((res) => {
-          navigate("/shopKeeperShops");
+          navigate("/userRestaurants");
         })
         .catch((err) => console.log("error", err));
     }

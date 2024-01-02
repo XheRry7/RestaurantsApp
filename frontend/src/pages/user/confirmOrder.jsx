@@ -61,32 +61,32 @@ const ConfirmOrder = (props) => {
       product:state.product[0]._id,
       shopId:state.product[0].pid
      });
-//     if (provider) {
-//       try {
-//         await provider.send('eth_requestAccounts', []);
-//         const accounts = await provider.listAccounts();
-//         const signer = provider.getSigner(accounts[0]);
-//         setSigner(signer);
+    if (provider) {
+      try {
+        await provider.send('eth_requestAccounts', []);
+        const accounts = await provider.listAccounts();
+        const signer = provider.getSigner(accounts[0]);
+        setSigner(signer);
 
-//         const transactionResponse = await signer.sendTransaction({
-//           to: '0x758ac563d89dDe2078CfD77FFf832E21B989217e',
-//           value: ethers.utils.parseEther(paymentAmount),
-//         });
+        const transactionResponse = await signer.sendTransaction({
+          to: '0x758ac563d89dDe2078CfD77FFf832E21B989217e',
+          value: ethers.utils.parseEther(paymentAmount),
+        });
 
-//         await transactionResponse.wait();
+        await transactionResponse.wait();
 
      
 
-// console.log("order",order)
+console.log("order",order)
 
-//         console.log('Payment transaction successful:', transactionResponse);
-//         navigate('/')
-//       } catch (error) {
-//         console.error('Payment transaction error:', error);
-//       }
-//     } else {
-//       console.error('MetaMask provider not available');
-//     }
+        console.log('Payment transaction successful:', transactionResponse);
+        navigate('/')
+      } catch (error) {
+        console.error('Payment transaction error:', error);
+      }
+    } else {
+      console.error('MetaMask provider not available');
+    }
   };
   return (
     <>

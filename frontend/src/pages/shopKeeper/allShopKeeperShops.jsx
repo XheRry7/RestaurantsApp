@@ -44,7 +44,7 @@ export default function ShopKeeperShops() {
   return (
     <>
       <ShopKeeperHeader />
-      <TitleCard name={"Shops"} />
+      <TitleCard name={"Restaurants"} />
       <section class="text-gray-600 body-font my-10">
         <div class="flex items-center flex-wrap justify-center py-3">
           <a

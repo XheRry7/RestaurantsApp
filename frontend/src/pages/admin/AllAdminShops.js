@@ -47,6 +47,7 @@ export default function AllShops() {
   const [value, setValue] = React.useState(0);
 
   let token = localStorage.getItem("token");
+  console.log("token",token);
 
   useEffect(() => {
     load();
@@ -57,6 +58,7 @@ export default function AllShops() {
     axios
       .get(url)
       .then((res) => {
+        console.log("sss",res.data);
         setList(res.data.data);
       })
       .catch((err) => console.log("err", err));

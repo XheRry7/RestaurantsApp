@@ -49,10 +49,10 @@ export default function AddShop() {
 
   const submit = () => {
     let jsn = {
-      RestaurantName: shopName,
+      shopName: shopName,
       shopNumber: shopNo,
       floorNumber: floorNo,
-      RestaurantType: type,
+      shopType: type,
       ownerPersonalInformation: {
         OwnerId: ownerId,
         firstName: fname,
@@ -67,14 +67,14 @@ export default function AddShop() {
       axios
         .put(`http://localhost:2000/api/shop/update/${id}`, jsn)
         .then((r) => {
-          navigate("/shopKeeperShops");
+          navigate("/userRestaurants");
         })
         .catch((er) => console.log("err", er));
     } else {
       axios
         .post(`http://localhost:2000/api/shop/create?token=${token}`, jsn)
         .then((res) => {
-          navigate("/shopKeeperShops");
+          navigate("/userRestaurants");
         })
         .catch((err) => console.log("error", err));
     }

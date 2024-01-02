@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,6 +11,7 @@ export default function CustomerProducts() {
   const [data, setData] = useState([]);
   const token = localStorage.getItem("token");
   let pid = localStorage.getItem("pid");
+  const navigate = useNavigate();
 
   useEffect(() => {
     loadData();
@@ -30,7 +31,7 @@ export default function CustomerProducts() {
   return (
     <>
       <MainHeader />
-      <TitleCard name={"Products"} />
+      <TitleCard name={"Restaurants"} />
       {/* Product grid */}
       <div className="mt-6 lg:col-span-2 lg:mt-0 xl:col-span-3">
         <section class="text-gray-600 body-font">
@@ -38,7 +39,9 @@ export default function CustomerProducts() {
             <div class="flex flex-wrap -m-4">
               {data && data.length ? (
                 data.map((i) => (
-                  <div class="h-fit m-3 w-60 transform overflow-hidden rounded-lg  bg-gray-800 dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg">
+                  <div class="h-fit m-3 w-60 transform overflow-hidden rounded-lg  bg-gray-800 dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"  onClick={() => {
+                    navigate(`/userItems/${pid}`, { state: { id: pid } });
+                  }}>
                     <Swiper
                       spaceBetween={30}
                       centeredSlides={true}

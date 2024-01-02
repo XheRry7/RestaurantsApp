@@ -4,7 +4,7 @@ const navigation = [
   { name: "Home", href: "#", path: "/" },
   // { name: 'About', href: '#', path: '' },
   { name: "Restaurants", href: "#", path: "/allshops" },
-  // { name: 'Products', href: '#', path: '/userProducts' },
+  // { name: 'Products', href: '#', path: '/userItems' },
   { name: "Cart", href: "#", path: "/cart" },
   // { name: 'Privacy Policy', href: '#', path: '' },
 ];

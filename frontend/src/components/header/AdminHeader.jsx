@@ -86,7 +86,7 @@ export default function AdminHeader() {
                         <NotificationsNoneIcon />
                         <span
                           className="ml-2"
-                          onclick={localStorage.removeItem("token")}
+                          onclick={()=>localStorage.removeItem("token")}
                         >
                           Pending Requests (
                           {data.filter((e) => e.Status === "PENDING").length})
@@ -138,7 +138,7 @@ export default function AdminHeader() {
 
                         <span
                           className="ml-2"
-                          onclick={localStorage.removeItem("token")}
+                          onclick={()=>localStorage.removeItem("token")}
                         >
                           Change Password
                         </span>
@@ -165,7 +165,7 @@ export default function AdminHeader() {
 
                         <span
                           className="ml-2"
-                          onclick={localStorage.removeItem("token")}
+                          onClick={()=>localStorage.removeItem("token")}
                         >
                           Logout
                         </span>

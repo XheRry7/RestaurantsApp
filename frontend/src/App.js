@@ -35,11 +35,11 @@ function App() {
         <Route path="/changePassword" element={<ChangePassword />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/floors" element={<AdminFloors />} />
-        <Route path="/addproduct" element={<AddProduct />} />
+        <Route path="/additem" element={<AddProduct />} />
         <Route path="/addshop" element={<AddShop />} />
         <Route path="/addfloor" element={<AddFloor />} />
         <Route path="/allshops" element={<AllShops />} />
-        <Route path="/shopKeeperShops" element={<ShopKeeperShops />} />
+        <Route path="/userRestaurants" element={<ShopKeeperShops />} />
         <Route path="/allAdminShops" element={<AllAdminShops />} />
         <Route path="/adminProducts/:id" element={<AdminProducts />} />
         <Route path="/customerProducts" element={<CustomerProducts />} />
@@ -50,8 +50,8 @@ function App() {
         <Route path="/allShopKeeperOrders" element={<AllOrders />} />
         <Route path="/adminProduct" element={<AdminProduct />} />
         <Route path="/" element={<Home />} />
-        <Route path="/userProducts/:id" element={<UserProduct />} />
-        <Route path="/productDetail" element={<ProductDetail />} />
+        <Route path="/userItems/:id" element={<UserProduct />} />
+        <Route path="/itemsDetails" element={<ProductDetail />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/confirmorder" element={<ConfirmOrder />} />
         {/* <Route path="/confirmorder" element={<NewRequest />} /> */}

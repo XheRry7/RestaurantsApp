@@ -70,8 +70,9 @@ export default function ShopCard({
             >
               <div className="flex flex-col items-start  ">
                 <img
-                  src="https://cdn.tuk.dev/assets/templates/olympus/profile.png"
+                  src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png"
                   alt="profile"
+                  className="h-[80px] w-[80px]"
                 />
                 <p className="mt-2 text-xs sm:text-sm md:text-base font-semibold text-center text-black">
                   {name}
@@ -106,10 +107,10 @@ export default function ShopCard({
             onClick={() => {
               localStorage.setItem("Id", "id");
               localStorage.setItem("pid", id);
-              nav("/addproduct");
+              nav("/additem");
             }}
           >
-            Add Product
+            Add Item
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

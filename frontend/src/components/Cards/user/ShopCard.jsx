@@ -11,7 +11,7 @@ export default function SliderCard({ id, image, name }) {
       <Slide index={id}>
         <div
           onClick={() => {
-            navigate("/userProducts", { state: { id: id } });
+            navigate("/userItems", { state: { id: id } });
           }}
         >
           <div className="flex flex-shrink-0 relative w-full sm:w-auto">

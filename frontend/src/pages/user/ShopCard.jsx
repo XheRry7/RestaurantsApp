@@ -109,7 +109,7 @@ export default function ShopCard({
             onClick={() => {
               localStorage.setItem("Id", "id");
               localStorage.setItem("pid", id);
-              nav("/addproduct");
+              nav("/additem");
             }}
           >
             Add Product

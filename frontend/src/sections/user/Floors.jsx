@@ -15,10 +15,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 
 export default function Floors({ number, list, len }) {
+  console.log("Aaa",list);
   return (
     <>
       <div className=" mx-auto">
-      
 
         <div className=" flex items-center justify-center w-full h-full sm:py-8 px-4">
           <Swiper
@@ -47,7 +47,7 @@ export default function Floors({ number, list, len }) {
             {list.map((i) => (
               <SwiperSlide>
                 <Link
-                  to={`userProducts/${i["_id"]}`}
+                  to={`userItems/${i["_id"]}`}
                   id={i["_id"]}
                   className="max-w-xs"
                 >
@@ -60,13 +60,13 @@ export default function Floors({ number, list, len }) {
                   </div>
                   <div className="bg-light-gray-700 shadow  px-5 rounded-b">
                     <p className="w-48 text-gray font-semibold leading-5 pt-4 text-">
-                      Burger-In
+                     {i.shopName}
                     </p>
 
                     <p className="py-2 text-xs leading-4 dark:text-dark-gray-400 text-gray-500">
-                    Burger-In is a food chain that began its journey in 19's and now it has over 500 branches all over the world exapnding the business to new limits.
+                    Burger-In is a food chain that began its journey in 19's and now it has over 500 branches all over the world.
                     </p>
-                    <div className="flex cursor-pointer py-4">
+                    <div className="flex cursor-pointer pb-4">
                       <p className="text-xs leading-1 text-indigo-700 pr-1">
                         Read more
                       </p>

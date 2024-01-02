@@ -26,7 +26,7 @@ export default function AllShops() {
   return (
     <>
       <MainHeader />
-      <TitleCard name={"Shops"} />
+      <TitleCard name={"Restaurants"} />
       <section class="text-gray-600 body-font my-10">
         <div class="container px-5 mx-auto">
           <div class="flex flex-wrap -m-4">

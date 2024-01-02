@@ -15,9 +15,9 @@ export default function ShopKeeperHeader() {
             <h2 className="text-gray-800 font-bold text-xl">CuisineCloud </h2>
             </div>
             <ul className="flex items-center justify-center h-full">
-              <NavLink to="/shopKeeperShops" activeClassName="active">
+              <NavLink to="/userRestaurants" activeClassName="active">
                 <li className="cursor-pointer h-full xl:flex items-center text-sm ml-10 tracking-normal hidden hover:text-indigo-700 transition duration-150 ease-in-out">
-                  Shops
+                  Restaurants
                 </li>
               </NavLink>
               <li className="mx-0 lg:mx-12 cursor-pointer">

@@ -29,7 +29,7 @@ export default function ChangePassword() {
           }
 
           case "SHOPKEEPER": {
-            navigate("/shopKeeperShops");
+            navigate("/userRestaurants");
             break;
           }
           case "ADMIN": {
