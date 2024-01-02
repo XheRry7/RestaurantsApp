@@ -22,7 +22,7 @@ export default function Signup() {
     let jsn = {
       email: em,
       password: password,
-      userType: "admin",
+      userType: type,
       personalInformation: {
         firstName: fn,
         lastName: ln,
@@ -103,8 +103,8 @@ export default function Signup() {
                     <input
                       type="radio"
                       name="usertype"
-                      value="Restaurant Owner"
-                      checked={type === "Restaurant Owner"}
+                      value="SHOPKEEPER"
+                      checked={type === "SHOPKEEPER"}
                       onChange={handleOptionChange}
                       className="cursor-pointer bg-[#ff6900]"
                     />{" "}
