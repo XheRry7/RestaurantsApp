@@ -59,8 +59,9 @@ export default function OrderCard({
             >
               <div className="flex flex-col items-start  ">
                 <img
-                  src="https://cdn.tuk.dev/assets/templates/olympus/profile.png"
+                  src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"
                   alt="profile"
+                  className="h-[70px] w-[70px] ml-3"
                 />
                 <p className="mt-2 text-xs sm:text-sm md:text-base font-semibold text-center text-black">
                  Usman

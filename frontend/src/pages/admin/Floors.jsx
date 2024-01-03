@@ -186,7 +186,7 @@ const filterHandler =(val)=>{
           <div className="px-4 md:px-10 py-4 md:py-7">
             <div className="lg:flex items-center justify-between">
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold leading-normal text-gray-800">
-                Shops
+                Restaurants
               </p>
               <div className="md:flex items-center mt-6 lg:mt-0">
                 <div className="flex items-center">
@@ -304,7 +304,6 @@ const filterHandler =(val)=>{
                   <th className="font-normal text-left pl-11">#</th>
                   <th className="font-normal text-left pl-11">Restaurant No</th>
                   <th className="font-normal text-left pl-10">Restaurant Name</th>
-                  <th className="font-normal text-left pl-10">Restaurant Type</th>
                   <th className="font-normal text-left pl-10">Status</th>
                 </tr>
               </thead>
@@ -321,9 +320,6 @@ const filterHandler =(val)=>{
                       </td>
                       <td>
                         <p className="mr-16 pl-10">{i["shopName"]}</p>
-                      </td>
-                      <td>
-                        <p className="mr-16 pl-10">{i["shopType"]}</p>
                       </td>
                       <td>
                         <p className="mr-16 pl-8">{i["Status"]}</p>
